@@ -2,6 +2,7 @@
 
 - App: personal to-do web app, single user. Full requirements are in docs/requirements.md.
 - Stack: React + TypeScript (strict) + Vite. Plain CSS with CSS variables. React state and hooks only.
+- Location: all application code lives in the app/ folder. Run npm commands from app/.
 - Persistence: localStorage behind a small storage module (src/storage).
 - Testing: no automated tests in this project; verify manually in the browser.
 - Timezone strategy: deadlines are entered and shown in the user's local browser timezone and stored as ISO 8601 strings. "Today" means the user's local calendar day. A task with a date but no time is due at 23:59 local time that day.
